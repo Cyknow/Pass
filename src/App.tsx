@@ -1,5 +1,5 @@
 import React from 'react';
-import './Stylings/Style.css';
+// import './Stylings/Style.css';
 import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
 import Home from "../src/Pages/HomePage/Home";
@@ -35,7 +35,7 @@ const App: React.FC = () => {
       <div className="container">
         <nav style={{ display: 'flex', gap: '1rem', marginBottom: '2rem' }}>          
           <Link to="/">Home</Link>
-          <Link to="/projects">Projects</Link>
+          <Link to="/project">Project</Link>
           <Link to="/blog">Blog</Link>
           <Link to="/contact">Contact</Link>
           <Link to="/landing">Portfolio</Link>

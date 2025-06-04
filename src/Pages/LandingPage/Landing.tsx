@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-// import './style.css';
+import './Landing.css';
 import { motion } from 'framer-motion';
 
 const Landing: React.FC = () => {
